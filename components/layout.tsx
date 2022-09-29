@@ -1,23 +1,16 @@
-import { ReactNode } from "react";
 import Footer from "./footer";
 import NavBar from "./navBar";
 
-interface layoutProps{
-    children: ReactNode
-}
+interface props {
+    children: React.ReactNode
+};
 
-const Layout = ( props: layoutProps ) =>{
+const Layout = ( {children}: props  ): JSX.Element =>{
     return (
         <>
-            <header>
-                <NavBar />
-            </header>
-            <body>
-                {props.children}
-            </body>
-            <footer>
-                <Footer />
-            </footer>
+            <NavBar />
+            <main>{children}</main>
+            <Footer />
         </>
     );
 }

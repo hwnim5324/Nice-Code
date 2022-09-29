@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Title = () =>{
+const Title = (): JSX.Element =>{
     return (
         <Head>
             <title> | </title>

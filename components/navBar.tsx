@@ -1,6 +1,6 @@
-const NavBar = () =>{
+const NavBar = (): JSX.Element =>{
     return (
-        <>
+        <header>
             <ul>
                 <li>logo</li>
                 <li>코드리뷰</li>
@@ -9,7 +9,7 @@ const NavBar = () =>{
                 <li>글쓰기</li>
                 <li>로그인</li>
             </ul>
-        </>
+        </header>
     );
 }
 
