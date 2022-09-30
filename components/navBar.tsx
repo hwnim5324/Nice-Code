@@ -32,6 +32,7 @@ const StyledUl = styled.ul`
 
     li{
         list-style: none;
+        white-space: nowrap;
         font-size: 20px;
         margin-right: 30px;
     }
@@ -44,6 +45,7 @@ const StyledUlR = styled.ul`
 
     li{
         list-style: none;
+        white-space: nowrap;
         font-size: 20px;
         margin-left: 30px;
     }
