@@ -6,7 +6,7 @@ const NavBar = (): JSX.Element =>{
     return (
         <Header>
             <Div>
-                <Link href='/'><a><Logo src="/logo.png" /></a></Link>
+                <Link href='/'><a><Logo src="/logo2.png" /></a></Link>
                 <LeftUl>
                     <Link href='/reviews'><a><li>코드리뷰</li></a></Link>
                     <Link href='/questions'><a><li>질문</li></a></Link>
