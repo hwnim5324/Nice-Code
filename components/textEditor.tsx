@@ -48,7 +48,6 @@ const TextEditor = () => {
     
     return (
         <>
-            <h1>새 포스트 작성</h1>
             <Title />
             <Category />
             <Tag />
