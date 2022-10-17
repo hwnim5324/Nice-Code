@@ -58,6 +58,9 @@ const Logo = styled.img`
 const Main = styled.main`
     width: 65%;
     margin: auto;
+
+    display: flex;
+    justify-content: space-between;
 `;
 
 const FooterOutter = styled.footer`
