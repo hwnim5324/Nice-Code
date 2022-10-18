@@ -27,4 +27,9 @@ const Box = styled.article`
     padding: 20px;
 `;
 
-export { Ranking, Body, Box };
+const Title = styled.span`
+    font-size: 20px;
+    font-weight: 600;
+`
+
+export { Ranking, Body, Box, Title };
