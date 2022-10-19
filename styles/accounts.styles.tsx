@@ -103,4 +103,31 @@ const SingleChildUl = styled.ul`
     }
 `
 
-export { OutterDiv, InnerDiv, Input, Button, MultipleChildUl, SingleChildUl };
+const RadioOutter = styled.div`
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+    div{
+        display: inline-flex;
+        align-items: center;
+
+        width: 140px;
+        height: 48px;
+
+        border: 1px solid #ebebeb;
+        background-color: #ebebeb;
+    }
+`;
+
+const Radio = styled.input`
+    margin-left: 1.5rem;
+`
+
+const Label = styled.label`
+    font-size: 16px;
+    margin-left: 1rem;
+`
+
+export { OutterDiv, InnerDiv, Input, Button, MultipleChildUl, SingleChildUl, RadioOutter, Radio, Label };
